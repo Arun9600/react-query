@@ -20,3 +20,20 @@ export interface Users {
     bs: string;
   };
 }
+
+export interface Products {
+  id: number;
+  title: string;
+  price: number;
+  category: string;
+  description: string;
+  image: string;
+}
+
+export interface PostProduct {
+  title: string;
+  price: number;
+  category: string;
+  description: string;
+  image: string;
+}
